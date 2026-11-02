@@ -1,0 +1,98 @@
+TabViewer Freeware License
+Version 1.0 — 1 November 2026
+
+Copyright (c) 2026 jayusop (jayusop@gmail.com). All rights reserved.
+
+This license applies to the TabViewer application for macOS, in the compiled
+form published at https://github.com/jayusop/TabViewer/releases, together with
+its documentation (the "Software"). The source code of the Software is not
+distributed and is not covered by this license.
+
+1. FREE FOR EVERYONE
+
+   The author grants you a free, non-exclusive, worldwide, royalty-free and
+   perpetual license to download, install, run and copy the Software on any
+   number of computers, for any purpose — personal, educational, non-profit,
+   government or commercial, including use by companies and other organisations
+   of any size. No fee, registration or license key is required.
+
+2. REDISTRIBUTION
+
+   You may redistribute copies of the Software free of charge, provided that the
+   Software is distributed unmodified, exactly as published by the author, and
+   that this license, the copyright notice and the file THIRD_PARTY_NOTICES.md
+   are kept with it.
+
+3. THE ONLY RESTRICTION: NO REVERSE ENGINEERING
+
+   You may not reverse engineer, decompile, disassemble, or otherwise attempt to
+   derive the source code, internal structure or algorithms of the Software, and
+   you may not modify, patch or create derivative works of the Software's
+   binaries. This restriction applies only to the extent permitted by the law
+   that applies to you; where such law expressly grants a right that cannot be
+   waived by contract (for example, reverse engineering strictly necessary for
+   interoperability), that right is not limited by this license.
+
+4. OWNERSHIP
+
+   The Software is licensed, not sold. The author keeps all copyright and other
+   intellectual property rights in the Software. The names "TabViewer" and the
+   Software's icon remain the property of the author.
+
+5. PRIVACY
+
+   The Software opens and saves score files on your computer. The Software
+   itself does not connect to the internet and does not collect personal data.
+   Third-party plug-ins that you choose to load (see section 6) run inside the
+   Software and are governed by their makers' own privacy policies; some may
+   connect to the internet for their own purposes, such as license activation.
+   When the score-sync option is on, the Software passes the open score to the
+   plug-in you selected so that it can play the score.
+
+6. THIRD-PARTY COMPONENTS, PLUG-INS AND TRADEMARKS
+
+   a) The Software includes the Steinberg VST 3 SDK, which is licensed under
+      the MIT License. That component, and any other component listed in the
+      file THIRD_PARTY_NOTICES.md distributed with the Software, is licensed
+      under its own terms as stated there, not under this license. Nothing in
+      this license, including section 3, limits any right you have under those
+      terms.
+
+   b) The Software uses frameworks, a General MIDI sound bank and fonts that
+      are part of macOS. They are not distributed with the Software and are
+      used under Apple's macOS license.
+
+   c) The Software can load Audio Unit and VST 3 plug-ins that you install
+      yourself. The author does not distribute or license any plug-in, sound
+      library or preset; each is governed solely by its maker's license.
+
+   d) "Guitar Pro" is a trademark of Arobas Music. "VST" is a registered
+      trademark of Steinberg Media Technologies GmbH. Apple, macOS and Audio
+      Unit are trademarks of Apple Inc. The Software is not affiliated with,
+      endorsed by or sponsored by any of these owners.
+
+   e) Score files you open, create or export remain the property of their
+      rights holders; you are responsible for having the right to use them.
+
+7. NO WARRANTY
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+
+8. LIMITATION OF LIABILITY
+
+   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE
+   AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+   WITH THE SOFTWARE OR THE USE OF OR OTHER DEALINGS IN THE SOFTWARE.
+
+9. TERMINATION
+
+   If you break the terms of this license, your rights under it end
+   automatically. Sections 4 to 8 continue to apply after termination.
+
+10. TRANSLATIONS
+
+   Translations of this license are provided for convenience only. If a
+   translation differs from this English text, this English text prevails.
