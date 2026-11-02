@@ -10,15 +10,15 @@
 
 <p align="center">
   Guitar Pro score viewer for macOS · Playback · Editing · PDF export<br>
-  <a href="https://github.com/jayusop/TabViewer/releases/latest"><b>⬇ Download Latest</b></a> ·
-  <a href="https://jayusop.github.io/TabViewer/?lang=en">Website</a>
+  <a href="https://github.com/jayusop/Tab-Viewer/releases/latest"><b>⬇ Download Latest</b></a> ·
+  <a href="https://jayusop.github.io/Tab-Viewer/?lang=en">Website</a>
 </p>
 
 <p align="center">
   <img alt="macOS 14+" src="https://img.shields.io/badge/macOS-14%2B-ffc14d">
   <img alt="Apple Silicon / Intel" src="https://img.shields.io/badge/Apple%20Silicon%20%2F%20Intel-supported-ff7a59">
   <img alt="Free for personal & business use" src="https://img.shields.io/badge/license-freeware-3fb950">
-  <img alt="Release" src="https://img.shields.io/github/v/release/jayusop/TabViewer?color=5ce1ff">
+  <img alt="Release" src="https://img.shields.io/github/v/release/jayusop/Tab-Viewer?color=5ce1ff">
 </p>
 
 ---
@@ -29,7 +29,7 @@ A macOS app to **view, play and edit** Guitar Pro files (`.gp` `.gpx` `.gp5` `.g
 
 ## Installation
 
-1. Download `TabViewer.app.zip` from [Releases](https://github.com/jayusop/TabViewer/releases/latest), unzip it, and move `TabViewer.app` into your **Applications** folder.
+1. Download `TabViewer.app.zip` from [Releases](https://github.com/jayusop/Tab-Viewer/releases/latest), unzip it, and move `TabViewer.app` into your **Applications** folder.
 2. The first time you open it, macOS shows a security warning (this personally distributed app isn't notarized by Apple). Don't click **Move to Trash** — close it with **Done** (**Cancel** on macOS 14), then click **Open Anyway** near the bottom of **System Settings › Privacy & Security**. Or, in Terminal:
    ```bash
    xattr -dr com.apple.quarantine /Applications/TabViewer.app
@@ -189,4 +189,4 @@ Guitar Pro is a trademark of Arobas Music; TabViewer is an independent program n
 
 ## Contact
 
-- Bug reports: [Issues](https://github.com/jayusop/TabViewer/issues) · jayusop@gmail.com
+- Bug reports: [Issues](https://github.com/jayusop/Tab-Viewer/issues) · jayusop@gmail.com

@@ -147,7 +147,7 @@ documentation, not of the app.
 ## 8. Contact
 
 Questions about this document: jayusop@gmail.com ·
-https://github.com/jayusop/TabViewer/issues
+https://github.com/jayusop/Tab-Viewer/issues
 
 Translations of this document are provided for convenience. If a translation
 differs from this English text, this English text prevails.

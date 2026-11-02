@@ -102,4 +102,4 @@ TabViewer 웹사이트(`docs/index.html`, GitHub Pages로 제공)는 앱이 아�
 
 ## 8. 문의
 
-이 문서에 관한 문의: jayusop@gmail.com · https://github.com/jayusop/TabViewer/issues
+이 문서에 관한 문의: jayusop@gmail.com · https://github.com/jayusop/Tab-Viewer/issues

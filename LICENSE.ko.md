@@ -6,7 +6,7 @@
 
 Copyright (c) 2026 jayusop (jayusop@gmail.com). All rights reserved.
 
-이 라이선스는 https://github.com/jayusop/TabViewer/releases 에 공개된 macOS용 TabViewer 애플리케이션(컴파일된 실행 파일)과 그 설명서(이하 "소프트웨어")에 적용됩니다. 소프트웨어의 소스 코드는 배포되지 않으며 이 라이선스의 대상이 아닙니다.
+이 라이선스는 https://github.com/jayusop/Tab-Viewer/releases 에 공개된 macOS용 TabViewer 애플리케이션(컴파일된 실행 파일)과 그 설명서(이하 "소프트웨어")에 적용됩니다. 소프트웨어의 소스 코드는 배포되지 않으며 이 라이선스의 대상이 아닙니다.
 
 ## 1. 누구나 무료
 

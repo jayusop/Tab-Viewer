@@ -10,15 +10,15 @@
 
 <p align="center">
   macOS용 Guitar Pro 악보 뷰어 · 재생 · 편집 · PDF 내보내기<br>
-  <a href="https://github.com/jayusop/TabViewer/releases/latest"><b>⬇ 최신 버전 다운로드</b></a> ·
-  <a href="https://jayusop.github.io/TabViewer/">소개 페이지</a>
+  <a href="https://github.com/jayusop/Tab-Viewer/releases/latest"><b>⬇ 최신 버전 다운로드</b></a> ·
+  <a href="https://jayusop.github.io/Tab-Viewer/">소개 페이지</a>
 </p>
 
 <p align="center">
   <img alt="macOS 14+" src="https://img.shields.io/badge/macOS-14%2B-ffc14d">
   <img alt="Apple Silicon / Intel" src="https://img.shields.io/badge/Apple%20Silicon%20%2F%20Intel-supported-ff7a59">
   <img alt="개인·기업 모두 무료" src="https://img.shields.io/badge/license-freeware-3fb950">
-  <img alt="Release" src="https://img.shields.io/github/v/release/jayusop/TabViewer?color=5ce1ff">
+  <img alt="Release" src="https://img.shields.io/github/v/release/jayusop/Tab-Viewer?color=5ce1ff">
 </p>
 
 ---
@@ -29,7 +29,7 @@ Guitar Pro 악보 파일(`.gp` `.gpx` `.gp5` `.gp4` `.gp3`)을 **보고, 듣고,
 
 ## 설치
 
-1. [Releases](https://github.com/jayusop/TabViewer/releases/latest)에서 `TabViewer.app.zip`을 내려받아 압축을 풀고, `TabViewer.app`을 **응용 프로그램** 폴더로 옮깁니다.
+1. [Releases](https://github.com/jayusop/Tab-Viewer/releases/latest)에서 `TabViewer.app.zip`을 내려받아 압축을 풀고, `TabViewer.app`을 **응용 프로그램** 폴더로 옮깁니다.
 2. 처음 열면 macOS가 보안 경고를 띄웁니다(Apple 공증을 받지 않은 개인 배포 앱). **휴지통으로 이동**은 누르지 말고 **완료**(macOS 14에서는 **취소**)로 창을 닫은 뒤, **시스템 설정 › 개인정보 보호 및 보안** 아래쪽의 **그래도 열기**를 클릭하세요. 터미널을 쓴다면:
    ```bash
    xattr -dr com.apple.quarantine /Applications/TabViewer.app
@@ -189,4 +189,4 @@ Guitar Pro는 Arobas Music의 상표이며, TabViewer는 Arobas Music과 관련�
 
 ## 문의
 
-- 버그 신고: [Issues](https://github.com/jayusop/TabViewer/issues) · 메일 jayusop@gmail.com
+- 버그 신고: [Issues](https://github.com/jayusop/Tab-Viewer/issues) · 메일 jayusop@gmail.com
