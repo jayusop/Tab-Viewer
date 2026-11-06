@@ -137,6 +137,8 @@
   .step h3{margin:2px 0 6px;font-size:17px}
   .step p{margin:0 0 8px;color:var(--muted);font-size:14.5px}
   .step p:last-child{margin-bottom:0}
+  .step ul.dl{margin:0 0 8px;padding-left:18px;color:var(--muted);font-size:14.5px}
+  .step ul.dl li{margin:3px 0}
   .path{color:var(--text);background:#262049;border-radius:6px;padding:1px 7px;font-size:13.5px}
   pre{background:#08071a;border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow-x:auto;font-size:13px;line-height:1.6;margin:10px 0 0;color:#ffe2c4;position:relative}
   pre code{background:none;padding:0;font-size:inherit}
@@ -390,7 +392,8 @@
     <div class="steps">
       <div class="step"><div>
         <h3 data-i18n="s1_h">내려받아 응용 프로그램 폴더로 옮기기</h3>
-        <p data-i18n="s1_p"><a data-repo="releases/latest" href="#">Releases 페이지</a>에서 <code>TabViewer.app.zip</code>을 받아 압축을 풀고, <code>TabViewer.app</code>을 <span class="path">응용 프로그램</span> 폴더로 드래그합니다.</p>
+        <p data-i18n="s1_p"><a data-repo="releases/latest" href="#">Releases 페이지</a>에서 내 Mac에 맞는 파일을 받아 압축을 풀고, <code>TabViewer.app</code>을 <span class="path">응용 프로그램</span> 폴더로 드래그합니다.</p>
+        <div data-i18n="s1_list"><ul class="dl"><li><code>TabViewer-Universal.zip</code> — 모든 Mac (잘 모르겠다면 이것)</li><li><code>TabViewer-AppleSilicon.zip</code> — Apple Silicon(M1 이후) 전용</li><li><code>TabViewer-Intel.zip</code> — Intel Mac 전용</li></ul><p>CPU는 <span class="path">Apple 메뉴 › 이 Mac에 관하여</span>의 <b>칩</b>(Apple M…) 또는 <b>프로세서</b>(Intel …)에서 확인합니다.</p></div>
       </div></div>
       <div class="step"><div>
         <h3 data-i18n="s2_h">처음 실행 허용하기</h3>
@@ -447,9 +450,11 @@
     <details><summary data-i18n="q9">Tablarion처럼 악보를 직접 연주하는 플러그인과 쓸 수 있나요?</summary>
       <p data-i18n="a9">네. <a href="https://github.com/jayusop/Tablarion">Tablarion</a>은 TabViewer와 같은 저작자가 무료로 배포하는 플러그인입니다(별도 설치). <b>음원 › 악보 재생 플러그인과 동기화</b>(기본 켜짐)를 켜 두면, MIDI 음표 대신 열린 악보를 플러그인에 넘기고 TabViewer의 재생 위치·템포를 따르게 합니다. 줄·주법·트랙별 악기가 그대로 쓰여 플러그인에서 직접 재생할 때와 같은 소리가 나며, 상태 표시줄에 "악보 동기화"가 표시됩니다. 트랙 볼륨·음소거·솔로는 재생을 시작할 때 반영됩니다.</p></details>
     <details><summary data-i18n="q10">외부 악기를 골랐는데 소리가 안 나요.</summary>
-      <p data-i18n="a10">상태 표시줄의 음원 이름이 고른 플러그인인지 확인하세요(오류 창이 떴다면 불러오지 못한 것입니다). 플러그인 창에서 음색이 선택되어 있는지, 플러그인 볼륨이 0이 아닌지 확인하세요. 트랙 1만 들리면 플러그인 파트의 MIDI 채널을, 단일 음색 플러그인이면 <b>트랙마다 다른 MIDI 채널 사용</b>을 끄세요. 드럼이 이상하면 <b>드럼 트랙은 내부 음원으로 재생</b>을 켭니다.</p></details>
+      <p data-i18n="a10">상태 표시줄의 음원 이름이 고른 플러그인인지 확인하세요(오류 창이 떴다면 불러오지 못한 것입니다). 플러그인 창에서 음색이 선택되어 있는지, 플러그인 볼륨이 0이 아닌지 확인하세요. 트랙 1만 들리면 플러그인 파트의 MIDI 채널을, 단일 음색 플러그인이면 <b>트랙마다 다른 MIDI 채널 사용</b>을 끄세요. 드럼이 이상하면 <b>드럼 트랙은 내부 음원으로 재생</b>을 켭니다. 플러그인이 목록에 없거나 불러오지 못하면, 실행 중인 TabViewer와 같은 CPU용(Apple Silicon 또는 Intel) 플러그인인지 확인하세요.</p></details>
     <details><summary data-i18n="q11">다른 악보를 열면 이전 창이 닫혀요.</summary>
       <p data-i18n="a11">파일을 열면 기존 악보 창을 새 악보로 대체합니다. 수정한 악보는 닫기 전에 저장할지 묻고, 취소하면 그 창은 남습니다. 여러 파일을 한 번에 고르면 모두 함께 열립니다.</p></details>
+    <details><summary data-i18n="q12">어떤 파일을 받아야 하나요?</summary>
+      <p data-i18n="a12">잘 모르겠다면 <code>TabViewer-Universal.zip</code>을 받으세요. Apple Silicon과 Intel 코드를 모두 담고 있어 어느 Mac에서든 그 CPU로 실행됩니다. Apple Silicon 전용·Intel 전용 파일은 크기가 더 작습니다. Apple Silicon Mac에서 Intel 전용판을 쓰면 Rosetta로 실행되어 Intel용 플러그인만 불러올 수 있으니 권장하지 않습니다.</p></details>
     <details><summary data-i18n="q6">버그는 어디로 알리나요?</summary>
       <p data-i18n="a6"><a data-repo="issues" href="#">GitHub Issues</a>에 macOS 버전, 문제가 생긴 파일의 형식(.gp/.gpx/.gp5 등), 재현 방법을 남겨 주세요. 메일은 <a href="mailto:jayusop@gmail.com">jayusop@gmail.com</a>.</p></details>
   </div>
@@ -561,7 +566,8 @@
     inst_h2: "Installation",
     inst_sub: "This personally distributed app isn't notarized by Apple, so the first time you need to get it past macOS's security check yourself.",
     s1_h: "Download and move to Applications",
-    s1_p: 'Get <code>TabViewer.app.zip</code> from the <a data-repo="releases/latest" href="#">Releases page</a>, unzip it, and drag <code>TabViewer.app</code> into your <span class="path">Applications</span> folder.',
+    s1_list: '<ul class="dl"><li><code>TabViewer-Universal.zip</code> — any Mac (pick this if unsure)</li><li><code>TabViewer-AppleSilicon.zip</code> — Apple Silicon (M1 or later) only</li><li><code>TabViewer-Intel.zip</code> — Intel Macs only</li></ul><p>Check your CPU under <span class="path">Apple menu › About This Mac</span>: <b>Chip</b> (Apple M…) or <b>Processor</b> (Intel …).</p>',
+    s1_p: 'Get the file for your Mac from the <a data-repo="releases/latest" href="#">Releases page</a>, unzip it, and drag <code>TabViewer.app</code> into your <span class="path">Applications</span> folder.',
     s2_h: "Allow the first launch",
     s2_p1: 'The first time you open it, macOS shows a security warning. Don\'t click <b>Move to Trash</b> — close it with <b>Done</b> (<b>Cancel</b> on macOS 14). Then click <b>Open Anyway</b> near the bottom of <span class="path">System Settings › Privacy &amp; Security</span> and enter your password.',
     s2_p2: "Prefer Terminal? This one line does the same.",
@@ -600,9 +606,11 @@
     q9: "Can I use plug-ins that play scores themselves, like Tablarion?",
     a9: 'Yes. <a href="https://github.com/jayusop/Tablarion">Tablarion</a> is a free plug-in by the same author as TabViewer (installed separately).' + " With <b>음원 › 악보 재생 플러그인과 동기화</b> (Sound › sync with score-playing plug-ins, on by default), TabViewer passes the open score to the plug-in instead of MIDI notes and has it follow TabViewer's playback position and tempo. Strings, techniques and per-track instruments are kept, so it sounds the same as playing the file in the plug-in, and the status bar shows \"악보 동기화\" (score sync). Track volume, mute and solo are applied when playback starts.",
     q10: "I chose an external instrument but hear nothing.",
-    a10: "Check that the sound source in the status bar is the plug-in you chose (an error window means it couldn't be loaded). Make sure a sound is selected in the plug-in window and its volume isn't at zero. If only track 1 plays, check the MIDI channels of the plug-in's parts — or, for a single-sound plug-in, turn off <b>트랙마다 다른 MIDI 채널 사용</b> (per-track MIDI channels). If drums sound wrong, turn on <b>드럼 트랙은 내부 음원으로 재생</b> (drums on internal sounds).",
+    a10: "Check that the sound source in the status bar is the plug-in you chose (an error window means it couldn't be loaded). Make sure a sound is selected in the plug-in window and its volume isn't at zero. If only track 1 plays, check the MIDI channels of the plug-in's parts — or, for a single-sound plug-in, turn off <b>트랙마다 다른 MIDI 채널 사용</b> (per-track MIDI channels). If drums sound wrong, turn on <b>드럼 트랙은 내부 음원으로 재생</b> (drums on internal sounds). If a plug-in is missing or fails to load, make sure it has code for the same CPU (Apple Silicon or Intel) that TabViewer is running on.",
     q11: "Opening another score closes the previous window.",
     a11: "Opening a file replaces the open score window with the new score. If the score was edited, you're asked whether to save first, and Cancel keeps the window. Files picked together all open together.",
+    q12: "Which file should I download?",
+    a12: "If unsure, get <code>TabViewer-Universal.zip</code>. It contains both Apple Silicon and Intel code and runs natively on any Mac. The Apple Silicon-only and Intel-only files are smaller. Running the Intel-only build on an Apple Silicon Mac uses Rosetta and can load only Intel plug-ins, so it isn't recommended.",
     q6: "Where do I report bugs?",
     a6: 'Open a <a data-repo="issues" href="#">GitHub Issue</a> with your macOS version, the file format involved (.gp/.gpx/.gp5 etc.) and steps to reproduce. Or email <a href="mailto:jayusop@gmail.com">jayusop@gmail.com</a>.',
     foot_tm: '"Guitar Pro" is a trademark of Arobas Music. TabViewer is an independent program not affiliated with it. VST is a registered trademark of Steinberg Media Technologies GmbH. Apple, macOS and Audio Unit are trademarks of Apple Inc.'

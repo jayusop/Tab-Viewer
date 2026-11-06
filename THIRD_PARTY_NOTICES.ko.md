@@ -27,7 +27,7 @@ TabViewer는 jayusop이 만든 프리웨어입니다. 이 문서는 TabViewer에
 - 용도: Mac에 설치된 VST 3 악기 플러그인을 불러와 재생
 - 사용 범위: SDK의 호스팅 소스(`pluginterfaces`, `public.sdk/source/common`, `public.sdk/source/vst/hosting`, `public.sdk/source/vst/utility`)를 앱에 컴파일해 포함. VSTGUI와 SDK 예제는 사용하지 않음
 - 고지 위치: 이 문서, 그리고 앱의 **TabViewer 정보** 창(MIT 라이선스 전문)
-- 버전: VST SDK 3.8.1
+- 버전: VST SDK 3.8.1 (build 84), 소스 저장소에 Git 서브모듈로 포함
 - 출처: https://github.com/steinbergmedia/vst3sdk
 - 라이선스: MIT 라이선스 (영어 원문)
 

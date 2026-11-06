@@ -29,7 +29,15 @@ A macOS app to **view, play and edit** Guitar Pro files (`.gp` `.gpx` `.gp5` `.g
 
 ## Installation
 
-1. Download `TabViewer.app.zip` from [Releases](https://github.com/jayusop/Tab-Viewer/releases/latest), unzip it, and move `TabViewer.app` into your **Applications** folder.
+1. Download the file for your Mac from [Releases](https://github.com/jayusop/Tab-Viewer/releases/latest), unzip it, and move `TabViewer.app` into your **Applications** folder.
+
+   | File | For |
+   |---|---|
+   | `TabViewer-Universal.zip` | Any Mac (Apple Silicon and Intel in one app — pick this if unsure) |
+   | `TabViewer-AppleSilicon.zip` | Apple Silicon (M1 or later) Macs only |
+   | `TabViewer-Intel.zip` | Intel Macs only |
+
+   Check your Mac's CPU under **Apple menu › About This Mac**: **Chip** (Apple M…) or **Processor** (Intel …).
 2. The first time you open it, macOS shows a security warning (this personally distributed app isn't notarized by Apple). Don't click **Move to Trash** — close it with **Done** (**Cancel** on macOS 14), then click **Open Anyway** near the bottom of **System Settings › Privacy & Security**. Or, in Terminal:
    ```bash
    xattr -dr com.apple.quarantine /Applications/TabViewer.app
@@ -161,6 +169,7 @@ Mute/solo work on external-instrument tracks too. Plug-ins protected by iLok/PAC
 - Some information, such as lyrics, isn't displayed.
 - Saving is supported in `.gp5` format only.
 - VST 2 plug-ins are not supported (VST 3 only).
+- External instrument plug-ins must contain code for the CPU TabViewer is running on. The Intel build on an Apple Silicon Mac runs under Rosetta and needs Intel (x86_64) plug-ins, so use the Universal or Apple Silicon build on Apple Silicon Macs.
 
 ## License
 

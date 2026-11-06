@@ -34,7 +34,7 @@ TabViewer contains no third-party fonts, sound samples or score files.
   VSTGUI and the SDK samples are not used.
 - Where the notice appears: this document and the app's **About TabViewer** window
   (full MIT License text).
-- Version: VST SDK 3.8.1
+- Version: VST SDK 3.8.1 (build 84), included as a Git submodule of the source repository
 - Source: https://github.com/steinbergmedia/vst3sdk
 - License: MIT License
 

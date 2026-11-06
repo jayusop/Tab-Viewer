@@ -29,7 +29,15 @@ Guitar Pro 악보 파일(`.gp` `.gpx` `.gp5` `.gp4` `.gp3`)을 **보고, 듣고,
 
 ## 설치
 
-1. [Releases](https://github.com/jayusop/Tab-Viewer/releases/latest)에서 `TabViewer.app.zip`을 내려받아 압축을 풀고, `TabViewer.app`을 **응용 프로그램** 폴더로 옮깁니다.
+1. [Releases](https://github.com/jayusop/Tab-Viewer/releases/latest)에서 내 Mac에 맞는 파일을 내려받아 압축을 풀고, `TabViewer.app`을 **응용 프로그램** 폴더로 옮깁니다.
+
+   | 파일 | 대상 Mac |
+   |---|---|
+   | `TabViewer-Universal.zip` | 모든 Mac (Apple Silicon과 Intel 모두 포함, 잘 모르겠다면 이것) |
+   | `TabViewer-AppleSilicon.zip` | Apple Silicon(M1 이후) Mac 전용 |
+   | `TabViewer-Intel.zip` | Intel Mac 전용 |
+
+   내 Mac의 CPU는 **Apple 메뉴 › 이 Mac에 관하여**에서 **칩**(Apple M…) 또는 **프로세서**(Intel …) 항목으로 확인합니다.
 2. 처음 열면 macOS가 보안 경고를 띄웁니다(Apple 공증을 받지 않은 개인 배포 앱). **휴지통으로 이동**은 누르지 말고 **완료**(macOS 14에서는 **취소**)로 창을 닫은 뒤, **시스템 설정 › 개인정보 보호 및 보안** 아래쪽의 **그래도 열기**를 클릭하세요. 터미널을 쓴다면:
    ```bash
    xattr -dr com.apple.quarantine /Applications/TabViewer.app
@@ -161,6 +169,7 @@ Guitar Pro 악보 파일(`.gp` `.gpx` `.gp5` `.gp4` `.gp3`)을 **보고, 듣고,
 - 가사 등 일부 정보는 표시하지 않습니다.
 - 저장은 `.gp5` 형식만 지원합니다.
 - VST 2 형식 플러그인은 지원하지 않습니다(VST 3만).
+- 외부 음원 플러그인은 TabViewer가 실행 중인 CPU용 코드가 들어 있어야 불러올 수 있습니다. Apple Silicon Mac에서 Intel용 TabViewer를 쓰면 Rosetta로 실행되므로 Intel(x86_64)용 플러그인이 필요합니다. Apple Silicon Mac에서는 Universal 또는 Apple Silicon 버전을 쓰세요.
 
 ## 라이선스
 
